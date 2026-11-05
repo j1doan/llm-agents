@@ -1,0 +1,6 @@
+stage,reads,how_it_reads_it,writes_does
+research_pricing,the price tool's output,tool call,produces an offers artifact; no side effects
+research_policy,the policy tool's output,tool call,"produces the policy artifact; also writes three keys into shared state: approved_suppliers, max_lead_days, policy_notes"
+plan,the pricing artifact and the three policy keys,"pricing by *message*, policy by *shared state*","produces the plan (supplier, sku, qty, rationale)"
+execute,the plan artifact,message,place_order and update_ledger (reversible); transfer_funds only if the model asks for it (irreversible)
+notify,the plan artifact only,message,one email (irreversible)

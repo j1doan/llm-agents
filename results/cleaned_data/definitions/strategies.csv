@@ -1,0 +1,8 @@
+strategy,what_it_does,told_the_faulty_run
+none,runs five stages; on a timeout aborts (aborted=True); no recovery,n/a
+full_restart,"after a fault fired: roll back every run (undo reversible effects), rerun all five stages. Emails/transfers stay and are counted.",yes
+verify_all,"each stage: produce, [inject], verify with an extra LLM call; if rejected rerun, up to 2 attempts (max_verify_attempts); last attempt is committed anyway (""force-commit""). Verification happens *before* commit so it can stop a bad email.",no
+verify_hybrid,"verify_all with the rule checker run first per attempt; on a rule violation the LLM call is skipped; if the last attempt still violates, violating actions are removed (D28)",no
+selective,"after the first pass, compute the downstream closure of the faulty run over messages and shared-state reads, roll back exactly those runs, rerun exactly those stages. On a timeout, just retry that stage immediately.",yes
+selective_msg,"same, closure follows messages only",yes
+"full_restart_gated, selective_gated","ep.gated = True, then the base strategy",yes

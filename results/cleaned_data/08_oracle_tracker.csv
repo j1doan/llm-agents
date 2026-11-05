@@ -1,0 +1,5 @@
+tracker,notion,pred,true,both,over,under,precision,recall
+selective (messages + state),strict,240,206,206,34,0,0.86,1.00
+selective (messages + state),decision,240,170,170,70,0,0.71,1.00
+selective_msg (messages only),strict,150,206,129,21,77,0.86,0.63
+selective_msg (messages only),decision,150,170,110,40,60,0.73,0.65

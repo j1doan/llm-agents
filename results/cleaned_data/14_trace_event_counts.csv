@@ -1,0 +1,10 @@
+event_kind,count
+message,12440
+artifact,9970
+tool_action,7020
+state_read,6435
+state_write,5730
+verify,3274
+fault,1440
+rollback,750
+episode_end,1520

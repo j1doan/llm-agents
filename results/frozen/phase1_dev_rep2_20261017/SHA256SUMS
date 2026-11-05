@@ -1,0 +1,4 @@
+0ef6900736ae04a20bb38cb4199c1b929e429c2f9b1ce6f1750b6cacf15fef0c *./experiment_20261017_110729_gemma4-12b-it-qat-q4_0/config.json
+3aba9124e25b3e639a57cdfd20f24aac9fd69a62f284f39bdb985c4aa7ec0629 *./experiment_20261017_110729_gemma4-12b-it-qat-q4_0/run.log
+ce257265d932739a5eb3be966ac6675081481491773e544f2d61cbd6c4e5dcca *./phase1_dev_rep2.jsonl
+d0c67076f7c539629af69f2ed669ef1f04752c850183332f6e2bbb66cac10168 *./phase1_dev_rep2.jsonl.traces.jsonl

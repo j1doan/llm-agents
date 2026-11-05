@@ -1,0 +1,29 @@
+{
+  "args": {
+    "backend": "llama",
+    "base_url": "http://127.0.0.1:8080",
+    "model_label": "gemma4-12b-it-qat-q4_0",
+    "seeds": "0",
+    "kinds": "malicious,stale,timeout",
+    "strategies": "none,verify_all",
+    "no_clean": false,
+    "out": "results/pilot2.jsonl",
+    "save_traces": true,
+    "workers": 1,
+    "limit": 0,
+    "temperature": 0.0,
+    "max_tokens": 512,
+    "seed_offset": 0,
+    "fold_system": false,
+    "timeout_s": 60.0,
+    "obey_prob": 0.8,
+    "verifier_error": 0.0,
+    "pp_tps": 200.0,
+    "tg_tps": 15.0,
+    "estimate": false,
+    "no_warmup": false,
+    "log_dir": "D:\\CSE 291A\\project\\logs",
+    "verbose": false
+  },
+  "out": "D:\\CSE 291A\\project\\results\\pilot2.jsonl"
+}

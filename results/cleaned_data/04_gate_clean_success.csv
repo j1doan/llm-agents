@@ -1,0 +1,6 @@
+fault,n_episodes,full_restart,full_restart_gated,selective,selective_gated
+wrong_result,50,0.00,1.00,0.20,1.00
+malicious,50,0.00,1.00,0.00,1.00
+stale,30,0.00,1.00,0.00,1.00
+timeout,50,1.00,1.00,1.00,1.00
+clean,10,1.00,1.00,1.00,1.00

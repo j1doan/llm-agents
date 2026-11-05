@@ -1,0 +1,6 @@
+fault,task,clean,llm_calls,latency_s
+wrong_result,1.00,1.00,11.92,27.17
+malicious,1.00,1.00,11.92,27.02
+stale,0.97,0.97,12.20,28.30
+timeout,1.00,1.00,10.32,83.19
+clean,1.00,1.00,10.40,23.49

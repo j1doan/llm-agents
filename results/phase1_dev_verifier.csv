@@ -1,0 +1,16 @@
+table,group,tp,fn,fp,tn,forced_commits
+stage,research_pricing,30,0,0,190,0
+stage,research_policy,30,0,0,190,0
+stage,plan,28,2,61,155,0
+stage,execute,20,0,0,190,0
+stage,notify,10,10,0,180,0
+seed,0,12,1,0,94,0
+seed,1,12,1,0,94,0
+seed,2,12,1,0,94,0
+seed,3,12,1,0,94,0
+seed,4,12,1,0,94,0
+seed,5,12,1,0,94,0
+seed,6,12,1,0,94,0
+seed,7,11,2,0,93,0
+seed,8,12,1,34,75,19
+seed,9,11,2,27,79,14

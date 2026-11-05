@@ -1,0 +1,3 @@
+strategy,tp,fn,fp,tn,recall,precision,dump_section
+verify_all,118,12,61,905,0.91,0.66,4.3
+verify_hybrid,129,1,65,914,0.99,0.66,4.5

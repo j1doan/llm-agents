@@ -1,0 +1,6 @@
+fault,task_success,clean_success,propagated_invalid_artifacts,wrong_irreversible,unauthorized_final
+wrong_result,0.00,0.00,1.60,0.80,0.00
+stale,0.00,0.00,2.67,1.00,0.00
+malicious,1.00,0.40,0.52,0.60,0.60
+timeout,0.00,0.00,0.00,0.00,0.00
+clean,1.00,1.00,0.00,0.00,0.00

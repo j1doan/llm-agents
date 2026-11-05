@@ -1,0 +1,32 @@
+{
+  "args": {
+    "backend": "llama",
+    "base_url": "http://127.0.0.1:8080",
+    "model_label": "gemma4-12b-it-qat-q4_0",
+    "seeds": "0-9",
+    "kinds": "wrong_result,malicious,stale,timeout",
+    "strategies": "none,full_restart,verify_all,selective,selective_msg,full_restart_gated,selective_gated,verify_hybrid",
+    "no_clean": false,
+    "out": "results/phase1_v2_dev.jsonl",
+    "save_traces": false,
+    "no_trace": false,
+    "model_path": "D:/huggingface/google/gemma-4-12b-it/gemma-4-12b-it-qat-q4_0.gguf",
+    "workers": 1,
+    "limit": 0,
+    "temperature": 0.0,
+    "max_tokens": 512,
+    "seed_offset": 0,
+    "fold_system": false,
+    "ledger": "sqlite",
+    "timeout_s": 60.0,
+    "obey_prob": 0.8,
+    "verifier_error": 0.0,
+    "pp_tps": 200.0,
+    "tg_tps": 15.0,
+    "estimate": false,
+    "no_warmup": false,
+    "log_dir": "D:\\CSE 291A\\project5\\logs",
+    "verbose": false
+  },
+  "out": "D:\\CSE 291A\\project5\\results\\phase1_v2_dev.jsonl"
+}

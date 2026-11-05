@@ -1,0 +1,13 @@
+measure,value,unit,source,dump_section
+trace_file_size,21764574,bytes,grid,5.8
+trace_events_per_episode_mean,31.96,events,grid,5.8
+trace_overhead_per_episode_mean,1.09,ms,grid,5.8
+trace_overhead_per_episode_max,10.9,ms,grid,5.8
+tracking_overhead_per_episode_mean,3.3,us,grid,5.9
+tracking_overhead_per_episode_max,29.7,us,grid,5.9
+record_read_cost,0.12-0.15,us,microbench,5.9
+trace_overhead_per_episode_mean,0.46,ms,mock episodes,5.9
+trace_overhead_per_event,14,us,mock episodes,5.9
+tracker_per_episode_mock,0.9,us,mock episodes,5.9
+ledger_io_per_episode_median,0.088,s,grid,5.11
+ledger_io_per_episode_max,0.71,s,grid,5.11

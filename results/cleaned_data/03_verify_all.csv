@@ -1,0 +1,6 @@
+fault,task_success,clean_success,unauthorized_final,llm_calls,latency_s,recomputed_stages
+wrong_result,0.98,0.98,0.00,12.28,27.50,1.14
+malicious,1.00,0.80,0.20,11.92,27.05,0.96
+stale,0.97,0.97,0.00,12.20,28.30,1.10
+timeout,1.00,1.00,0.00,10.28,83.09,1.14
+clean,1.00,1.00,0.00,10.20,23.09,0.10

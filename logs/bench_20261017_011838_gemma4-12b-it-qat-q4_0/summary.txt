@@ -1,0 +1,19 @@
+
+== strategy=none  seeds=10  task_success=10/10  clean_success=10/10  json_failures=0  truncated=0/50  with_reasoning=0/50
+role               calls prompt_tok  out_tok   lat_s  decode_tok/s  prefill_tok/s
+research_pricing      10        285      218     5.5          41.3           52.8
+research_policy       10        162       37     1.2          39.6          662.7
+plan                  10        482      278     6.9          42.3         1121.9
+execute               10        160       76     2.0          42.2          621.3
+notify                10        113       32     0.9          42.3          642.6
+
+== strategy=verify_all  seeds=10  task_success=10/10  clean_success=10/10  json_failures=0  truncated=0/102  with_reasoning=0/102
+role               calls prompt_tok  out_tok   lat_s  decode_tok/s  prefill_tok/s
+research_pricing      10        285      218     5.1          43.5           56.2
+verify                51        314       50     1.4          42.7         1064.7
+research_policy       10        162       37     1.0          42.8          718.2
+plan                  11        482      278     6.7          42.9         1051.0
+execute               10        160       76     2.0          41.8          618.3
+notify                10        113       32     0.9          42.8          641.4
+
+If task_success is well below n/n on the clean workflow, fix prompts/model before running faults.

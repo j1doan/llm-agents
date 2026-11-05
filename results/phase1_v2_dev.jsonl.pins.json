@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-11-01T08:32:44+00:00",
+  "python": "3.14.6",
+  "packages": {
+    "tqdm": "4.70.0",
+    "pytest": "9.2.0"
+  },
+  "requirements_match": true,
+  "git_commit": null,
+  "git_dirty": null,
+  "llama_cpp_build": "b10926-2a3005c23",
+  "server_n_ctx": 4096,
+  "model_file": {
+    "file": "gemma-4-12b-it-qat-q4_0.gguf",
+    "size_bytes": 6975879296,
+    "sha256": "93567e57a8fe10b23569b9d9ec38cd005deedf71e29477c421a4b83f418a538b"
+  },
+  "model_settings": {
+    "temperature": 0.0,
+    "context": 4096,
+    "max_output_tokens": 512,
+    "ledger_backend": "sqlite",
+    "seed_policy": "fixed seed (--seed-offset 0)"
+  },
+  "backend": "llama",
+  "model_label": "gemma4-12b-it-qat-q4_0"
+}

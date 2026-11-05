@@ -1,0 +1,12 @@
+item,value,dump_section
+episodes,1520,3.2
+strategies,8,3.2
+seeds,10,3.2
+conditions,19,3.2
+error_records,0,3.2
+episodes_per_strategy,190,3.2
+wall_time_hours_sum_of_episodes,9.79,3.2
+cross_run_episodes_compared,570,3.3
+cross_run_identical_outcomes,570,3.3
+first_attempt_repeat_episodes,285,3.3
+first_attempt_repeat_identical,285,3.3

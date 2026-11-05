@@ -1,0 +1,36 @@
+
+== strategy=none  seeds=10  task_success=10/10  clean_success=10/10  json_failures=0  truncated=0/50  with_reasoning=0/50
+role               calls prompt_tok  out_tok   lat_s  decode_tok/s  prefill_tok/s
+research_pricing      10        285      218     5.4          42.1         1406.3
+research_policy       10        162       37     1.1          42.1          774.2
+plan                  10        482      278     6.9          42.0         1240.1
+execute               10        160       76     2.0          42.4          669.2
+notify                10        113       32     0.9          42.2          679.0
+
+== strategy=verify_all  seeds=10  task_success=10/10  clean_success=10/10  json_failures=0  truncated=0/102  with_reasoning=0/102
+role               calls prompt_tok  out_tok   lat_s  decode_tok/s  prefill_tok/s
+research_pricing      10        285      218     5.2          43.1           57.0
+verify                51        314       50     1.4          43.0         1166.9
+research_policy       10        162       37     1.0          43.0          773.3
+plan                  11        482      278     6.7          42.9         1144.2
+execute               10        160       76     1.9          43.2          654.0
+notify                10        113       32     0.9          42.9          682.9
+
+== strategy=verify_hybrid  seeds=10  task_success=10/10  clean_success=10/10  json_failures=0  truncated=0/102  with_reasoning=0/102
+role               calls prompt_tok  out_tok   lat_s  decode_tok/s  prefill_tok/s
+research_pricing      10        285      218     5.2          43.1           57.3
+verify                51        314       50     1.4          43.0         1140.8
+research_policy       10        162       37     1.0          43.0          770.5
+plan                  11        482      278     6.7          42.8         1144.7
+execute               10        160       76     1.9          43.2          653.2
+notify                10        113       32     0.9          42.9          683.5
+
+== strategy=selective_gated  seeds=10  task_success=10/10  clean_success=10/10  json_failures=0  truncated=0/50  with_reasoning=0/50
+role               calls prompt_tok  out_tok   lat_s  decode_tok/s  prefill_tok/s
+research_pricing      10        285      218     5.2          43.1           56.7
+research_policy       10        162       37     1.0          42.9          770.2
+plan                  10        482      278     6.7          42.9         1250.7
+execute               10        160       76     2.0          43.2          654.2
+notify                10        113       32     0.9          43.0          679.3
+
+If task_success is well below n/n on the clean workflow, fix prompts/model before running faults.

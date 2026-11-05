@@ -1,0 +1,5 @@
+fault,task_success,clean_success,calls,latency_s,recomputed_stages,retained_invalid
+wrong_result,1.00,0.20,7.6,22.91,2.60,0.00
+malicious,1.00,0.00,7.6,23.57,2.60,0.00
+stale,1.00,0.00,8.67,27.19,3.67,0.00
+timeout,1.00,1.00,5.0,75.34,1.00,0.00
